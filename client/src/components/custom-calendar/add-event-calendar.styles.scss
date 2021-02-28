@@ -1,0 +1,45 @@
+.daysofweek-wrap {
+    padding: 15px 25px;
+
+    .month-year {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    .days-wrap {
+        
+        width: 100%;
+
+        .days-header {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            flex-grow: 1;
+
+            .daysofweek {
+                background-color: slateblue;
+                padding: 5px 10px;
+                font-size: 15px;
+                width: 14.2%;
+                
+            }
+        }
+        
+        .days-body{
+            display: flex;
+            flex-wrap: wrap;
+
+            .dates-wrap {
+                width: 14.2%;
+                text-align: center;
+                height: 50px;
+            }
+
+        }
+
+
+    }
+}
+
+    

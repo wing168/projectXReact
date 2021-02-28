@@ -1,0 +1,16 @@
+
+.days {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.today {
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50%;
+}
+
+.selected {
+    background-color: rgb(59, 170, 214);
+}
